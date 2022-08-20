@@ -17,7 +17,7 @@ reader.question("What would you like to calculate?", function(input){
 	if (mathSymbol === "+") {
 		console.log ('addition',num1 + num2)
 	}
-    if (mathSymbol === "-") {
+        if (mathSymbol === "-") {
 		console.log ('subtraction' ,num1 - num2)
 	}
 	if (mathSymbol === "*") {
@@ -26,7 +26,7 @@ reader.question("What would you like to calculate?", function(input){
 	if (mathSymbol === "/") {
 		console.log ('division' ,num1 / num2)
 	}
-	if (mathSymbol === 'sqrt') {
+	if (mathSymbol === "sqrt") {
 		console.log ('square root' ,Math.sqrt(num1))
 	}
 
